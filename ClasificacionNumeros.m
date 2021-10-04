@@ -97,9 +97,22 @@ disp('Trinomia (raiz del algebra) siempre se pueden comparar');
 p_tricotomia = 'a > b ';
 p_tricotomia2 = 'a = b';
 p_tricotomia3 = 'a < b';
-disp('Si a=2 y b =1 Entonces a > b ');
-disp('Si a=2 y b =2 Entonces a = b');
-disp('Si a=1 y b =2 Entonces a < b');
+a=5;
+b=3;
+a
+b
+disp('a>b');
+if (a>b)
+  disp('Verdadero');
+ else
+  disp('Falso');
+endif
+disp('a<b');
+if (a<b)
+  disp('Verdadero');
+ else
+  disp('Falso');
+endif
 
 %signos de agrupacion
 s_agrupacion = '{[()]}';
