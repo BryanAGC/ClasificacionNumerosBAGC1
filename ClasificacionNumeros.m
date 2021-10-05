@@ -103,10 +103,3 @@ disp('Si a=1 y b =2 Entonces a < b');
 
 %signos de agrupacion
 s_agrupacion = '{[()]}';
-
-
-
-
-
-
-
